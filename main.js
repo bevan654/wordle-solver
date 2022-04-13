@@ -75,7 +75,7 @@ class Wordle{
                     if(value_array.every(item => {
                         if(word.includes(item)){
                             return true
-                        }
+                        }//ok
                     })){
                         return_array.push(word)
                     }
